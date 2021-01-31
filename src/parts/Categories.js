@@ -40,7 +40,7 @@ export default function Categories({ data }) {
                       <Button
                         type="link"
                         href={"/properties/${item._id}"}
-                        className="strached-link d-block text-grey-800"
+                        className="strached-link d-block text-gray-800"
                       >
                         <h5 className="h4">{item.name}</h5>
                       </Button>
