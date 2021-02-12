@@ -43,7 +43,7 @@ export default function Testimony({ data }) {
                 hasShadow
                 isPrimary
                 type="link"
-                href={"/testimonial/${data._id}"}
+                href={`/testimonial/${data._id}`}
               >
                 Read Their Story
               </Button>

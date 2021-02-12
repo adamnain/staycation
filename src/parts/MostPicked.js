@@ -34,7 +34,7 @@ export default function MostPicked(props) {
                       <Button
                         type="link"
                         className="strached-link d-block text-white"
-                        href={"/properties/${item.id}"}
+                        href={`/properties/${item.id}`}
                       >
                         <h5>{item.name}</h5>
                       </Button>
